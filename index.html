@@ -1,20 +1,57 @@
 <!DOCTYPE html>
 <html lang="zh">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>一键热榜 - 技术支持</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>一键热榜 - 技术支持</title>
+    <meta http-equiv="refresh" content="0;url=https://hotnews-support-v2-bzym.vercel.app">
+    <link rel="canonical" href="https://hotnews-support-v2-bzym.vercel.app" />
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+        }
+        .container {
+            max-width: 500px;
+            padding: 2rem;
+        }
+        .spinner {
+            border: 3px solid rgba(255,255,255,0.3);
+            border-radius: 50%;
+            border-top: 3px solid white;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        a {
+            color: #fff;
+            text-decoration: underline;
+        }
+    </style>
 </head>
-<body style="font-family:sans-serif; max-width:600px; margin:40px auto;">
-  <h1>📱 一键热榜 - 技术支持页面</h1>
-  <p>感谢您使用一键热榜 App！</p>
-  <p>如您在使用过程中遇到任何问题，欢迎通过以下方式联系我们：</p>
-  <ul>
-    <li>📮 邮箱：cody999110@gmail.com</li>
-    <li>📄 常见问题解答将陆续添加</li>
-  </ul>
-  <p>我们会不断优化产品，感谢你的支持与反馈！</p>
-  <hr />
-  <small>© 2025 Wei Chen. All rights reserved.</small>
+<body>
+    <div class="container">
+        <div class="spinner"></div>
+        <h1>正在跳转到新页面...</h1>
+        <p>如果没有自动跳转，请点击：<a href="https://hotnews-support-v2-bzym.vercel.app">这里</a></p>
+    </div>
+    <script>
+        // 确保跳转执行
+        setTimeout(() => {
+            window.location.href = 'https://hotnews-support-v2-bzym.vercel.app';
+        }, 1000);
+    </script>
 </body>
-</html>
+</html> 
